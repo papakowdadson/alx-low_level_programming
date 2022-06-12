@@ -4,9 +4,9 @@
 
 
 /**
- * main- print whether n is negative or positive  
- * 
- * return: 0 after succesful execution 
+* main- print whether n is negative or positive  
+* 
+* return: 0 after succesful execution 
 */
 int main(void)
 {
@@ -14,7 +14,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
     if (n > 0)
     {
         printf("is positive'\n");

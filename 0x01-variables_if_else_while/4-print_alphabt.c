@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- * main- print alphabets except
- * q and e
- * return: 0 is succesful
- */
+* main- print alphabets except
+* q and e
+* return: 0 is succesful
+*/
 
 int main(void)
 {
     char gh;
-    for (gh = 'a';gh <= 'z'; gh++)
+    for (gh = 'a'; gh <= 'z'; gh++)
     {
         if (gh != 'e' && gh != 'q')
         {
