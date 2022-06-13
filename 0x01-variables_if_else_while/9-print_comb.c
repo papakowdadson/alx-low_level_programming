@@ -7,15 +7,17 @@
 int main(void)
 {
     int a;
-    int b;
-    for (a = 0; a < 10; a++){
-        putchar(a);
-        for (b = 0; b < 10; b++){
-            
-            putchar(b);
+    while (a < 0)
+    {
+        putchar(48 + a);
+        if (a != 9)
+        {
+            putchar(',');
+            putchar(' ');
         }
+        a++;
     }
-    putchar('\n');
-    return (0);
 
+    putchar('\n');
+    return (0);   
 }
